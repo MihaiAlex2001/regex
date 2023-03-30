@@ -1,0 +1,80 @@
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.center-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container {
+  margin: 20px;
+  width: 500px;
+  padding: 10px;
+  background-color: rgb(26, 26, 26, 0.7);
+  color: white;
+}
+
+.container_title{
+  font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+  height: 200px;
+  width: 100%;
+  background: black;
+  border: none;
+  color: white;
+}
+
+input {
+  
+  padding: 3px;
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  margin-right: -30px;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+  padding: 3px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: red;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(26, 26, 26, 0.7);
+}
+
+.footer_text{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}

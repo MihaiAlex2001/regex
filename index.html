@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema 1 - LFA | Maciuca Mihai CR3.2A</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="regex.js"></script>
+    </head>
+
+    <body>
+        <div class="center-container">
+            <h1>Tema 1 - LFA</h1>
+            <div class="container">
+                <div class="container_title">
+                    Introdu pattern
+                </div>
+                <input type="text" id="input" value="\b[\w\.-]+@[\w\.-]+\.\w{2,3}\b">
+                <button type="submit" onclick="extractPattern()">extrage</button>
+            </div>
+            <div class="container">
+                <div class="container_title">
+                    Input:
+                </div>
+                <textarea id="textarea1">alex@gmail.com
+maciuca.mihai.r9d@student.ucv.ro
+mihai.alex99@student.ucv.ro
+qwerty
+B A S @ A . asd
+mihai@@gmail.com
+@gmail.com
+@gmail.com alex
+vasile_2@yahoo.com
+                </textarea>
+            </div>
+            <div class="container">
+                <div class="container_title">
+                    Rezultat obtinut:
+                </div>
+                <textarea id="textarea2" disabled></textarea>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_text">
+                Maciuca Mihai Alexandru - CR 3.2A
+            </div>
+        </div>
+        
+    </body>
+
+</html>
